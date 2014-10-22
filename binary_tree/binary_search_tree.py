@@ -359,6 +359,7 @@ class BST(object) :
         creat_binary_tree_with_pre_in(pre_order,in_order,pre_left+mid-in_left+1,
                 pre_right,mid+1,in_right)
         return self.root
+        
 
 
 
